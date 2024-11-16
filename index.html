@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anant Transport Services - Home</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .section-header {
+            font-weight: 600;
+        }
+        .bold-text {
+            font-weight: 600;
+            margin-bottom: 1rem; /* Adds space below each paragraph */
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="home.html">Anant Transport</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="Team.html">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="Review.html">Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Welcome Section -->
+<section class="py-5 text-center bg-light">
+    <div class="container">
+        <h1 class="section-header">Welcome to Anant Transport</h1>
+        <p class="lead">The Best Transporting Experience for Your Business</p>
+        <a href="about.html" class="btn btn-custom mt-3">Learn More About Us</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="section-header">About Anant Transport</h2>
+                <p class="bold-text">At Anant Transport, we pride ourselves on providing high-quality transport services tailored to meet the unique demands of the modern construction and logistics industries.</p>
+                <p class="bold-text">Our commitment to excellence begins with a robust fleet of well-maintained vehicles, each equipped with advanced technology to ensure efficiency and reliability.</p>
+                <p class="bold-text">Whether it's Fly Ash transportation, vital for sustainable construction, or a variety of other building materials like cement, aggregates, or sand, we handle it all with precision.</p>
+                <p class="bold-text">Our dedicated team of professional drivers and logistics experts work around the clock to guarantee that every delivery reaches its destination on time, safely, and within budget.</p>
+                <p class="bold-text">We understand the critical role that transportation plays in keeping construction projects on schedule, and we make it our mission to minimize downtime and maximize productivity.</p>
+                <p class="bold-text">In addition to our core transportation services, we offer custom logistics solutions designed to fit the unique needs of your business.</p>
+                <p class="bold-text">Our experienced staff collaborates with clients to plan routes, optimize delivery schedules, and provide real-time tracking so that you can monitor your shipment’s progress every step of the way.</p>
+                <p class="bold-text">Safety is at the forefront of our operations. We adhere to strict safety protocols, ensuring that all goods, especially hazardous materials like Fly Ash, are transported in compliance with environmental and industry regulations.</p>
+                <p class="bold-text">Our drivers undergo continuous training to maintain the highest standards of safety and professionalism.</p>
+                <p class="bold-text">Anant Transport is more than just a logistics provider – we are your partner in growth and success.</p>
+                <a href="about.html" class="btn btn-custom mt-3">Discover More</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="Truck3.jpg" alt="Anant Transport" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Booking Slot Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="section-header text-center">Book Your Transport Slot</h2>
+        <p class="lead text-center">Schedule your transport service with ease</p>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="date" class="form-label">Select Date</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <div class="col-md-6">
+                    <label for="time" class="form-label">Select Time Slot</label>
+                    <select class="form-select" id="time">
+                        <option value="morning">Morning (8:00 AM - 12:00 PM)</option>
+                        <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+                        <option value="evening">Evening (4:00 PM - 8:00 PM)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="service" class="form-label">Select Service</label>
+                <select class="form-select" id="service">
+                    <option value="fly-ash">Fly Ash Transport</option>
+                    <option value="building-material">Building Material Transport</option>
+                    <option value="logistics">Logistics and Distribution</option>
+                    <option value="custom">Custom Transport Solutions</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="notes" class="form-label">Additional Notes</label>
+                <textarea class="form-control" id="notes" rows="3" placeholder="Any additional requirements"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-3">
+    <div class="container">
+        <p class="footer-text text-center">&copy; 2024 Anant Transport Services. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

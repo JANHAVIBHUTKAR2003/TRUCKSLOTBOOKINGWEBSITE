@@ -1,0 +1,89 @@
+/* Custom Styles for Bootstrap Theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #4b0082;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dda0dd !important;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.btn-custom {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #dda0dd;
+}
+
+.section-header {
+    color: #4b0082;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    color: #4b0082;
+}
+
+.card p {
+    color: #333;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-label {
+    color: #4b0082;
+    font-weight: bold;
+}
+
+.form-text {
+    color: #666;
+}
+
+/* Reviews & Team section */
+.review-card, .team-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h5, .team-card h5 {
+    color: #4b0082;
+}
+
+.review-card p, .team-card p {
+    color: #333;
+}
